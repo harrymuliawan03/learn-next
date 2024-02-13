@@ -1,3 +1,6 @@
+"use client";
+import { useSession } from "next-auth/react";
+
 export default function AboutPage() {
   return (
     <div className="h-screen w-60 justify-center items-center">

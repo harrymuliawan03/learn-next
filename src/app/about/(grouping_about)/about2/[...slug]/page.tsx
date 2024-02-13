@@ -1,3 +1,4 @@
+"use client";
 type Props = { params: { slug: string[] } };
 
 export default function DetailAbout2Pages(props: Props) {
